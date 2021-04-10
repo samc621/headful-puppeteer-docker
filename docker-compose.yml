@@ -1,0 +1,8 @@
+version: '3.8'
+
+services:
+  server:
+    build: ./
+    image: samc621/headful-puppeteer-docker
+    ports:
+      - '5900:5900'
